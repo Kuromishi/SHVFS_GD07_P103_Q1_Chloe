@@ -20,7 +20,7 @@ public class Ball : MonoBehaviour
         tickTimer += Time.deltaTime;
         if (tickTimer < TickRate) return;
         else
-       // GameObject ball = Instantiate(ball,  transform);
+       Instantiate(ball, t);
         tickTimer = 0;
 
     }
